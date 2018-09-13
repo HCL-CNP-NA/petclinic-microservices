@@ -1,0 +1,7 @@
+applications:
+- name: petclinic-vets
+  path: ./spring-petclinic-vets-service/target/spring-petclinic-vets-service-2.0.4.jar
+  routes:
+  - route: petclinic-vets-hcldemo.cfapps.io
+  memory: 1G
+  instances: 1
